@@ -1,0 +1,31 @@
+{
+	"success": true,
+	"data": {
+		"authorList": [{
+			"id": 1,
+			"name": "北落西门",
+			"desc": "写了67.7k字 · 8k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/7705786/a90dc05d-63f6-4690-8c1a-dcf7ff4422df.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+		},
+		{
+			"id": 2,
+			"name": "须僧",
+			"desc": "写了79.9k字 · 9k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/11557689/ed2ea7f3-9d7d-41fc-a05a-daebb8097b0c.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+		},
+		{
+			"id": 3,
+			"name": "茶点故事",
+			"desc": "写了564.8k字 · 14.3k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/4790772/388e473c-fe2f-40e0-9301-e357ae8f1b41.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+		},
+		{
+			"id": 4,
+			"name": "一只支",
+			"desc": "写了568.3k字 · 2.5k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/607979/314ec609-a72c-43e7-bf49-7dcc83917cf9.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+		}
+
+	]
+	}
+}

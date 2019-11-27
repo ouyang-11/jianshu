@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component,Fragment } from 'react';
+import { Provider } from 'react-redux'
+import { BrowserRouter, Route } from 'react-router-dom';
+import Header from './common/header';
+import Home from './pages/home';
+import Login from './pages/login';
+import Writing from './pages/writing';
+import Detail from './pages/detail';
+import {GlobalStyled} from './style.js';
+import store from './store';
 
-function App() {
+class App extends Component {
+render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+       <Provider store={store}>
+	        <BrowserRouter>
+	          <div>
+               <Header />
+              <Route path='/' exact component={Home}></Route>
+              <Route path='/login' exact component={Login}></Route>
+	            <Route path='/writing' exact component={Writing}></Route>
+	            <Route path='/detail/:id' exact component={Detail}></Route>
+	          </div>
+	        </BrowserRouter>
+
+       </Provider>
+
+       <GlobalStyled />
+    </Fragment>
   );
+}
 }
 
 export default App;
